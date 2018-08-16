@@ -1,0 +1,11 @@
+body { font-size:16px; }
+
+header { padding:10px 0px; position:relative;  }
+header h1 { font-size:1.25rem; position:relative; }
+header div.flex-container{display:flex; flex-direction:row; flex-wrap:wrap;}
+header div div{width:50%;}
+header div button,
+header div label { border:2px solid #cfcfcf; background-color:#fff; color:#0000ff; font-weight:bold; font-size:.875rem; padding:5px 10px; }
+header div button:hover,
+header div label:hover { border-color:#0000ff; background-color:#cfcfcf; color:#000; }
+header div input { opacity:0; position:absolute; z-index:-1; width:0.1px; height:0.1px; }
